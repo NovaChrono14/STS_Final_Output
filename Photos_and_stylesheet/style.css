@@ -1,0 +1,137 @@
+
+@font-face {
+  font-family: 'Apple';
+  src: url(./Apple\ Chancery.ttf) format('truetype');
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.banner{
+  position: relative;
+  padding: 5px;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(to bottom right, rgb(192, 98, 255), rgb(240, 66, 66));
+}
+.banner h1{
+  display: flex;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner img{
+  position: relative;
+  height: 55px;
+  width: auto;
+}
+
+ul{
+  list-style: none;
+}
+body{
+  background-image: linear-gradient(to bottom right, rgb(253, 177, 253), #ffffc7);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid black;
+}
+
+.blog_heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog_heading span{
+  font-size: 2.4rem;
+  color: rgb(248, 48, 75);
+  font-weight: 600;
+  font-family: 'Apple', sans-serif;
+}
+.blog_heading h3{
+  font-family: 'Apple', sans-serif;
+}
+
+.blog_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.blog_box{  
+  border-radius: 10px;
+  position: static;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border: 2px solid grey;
+  margin: 20px;
+}
+
+.picture{
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.picture img{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog_text{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog_text span{
+  color: rgb(241, 82, 109);
+  font-size: 0.9rem;
+}
+
+.blog_text .blog_title{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(36, 138, 228)
+}
+
+.blog_text .blog_title:hover{
+  color: brown;
+  transition: all ease 0.3s;
+}
+
+.blog_text p{
+  color: rgb(83, 80, 80);
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0;
+}
+
+
+.blog_text a:hover{
+  color: rgb(223, 58, 8);
+  transition: all ease 0.3s;
+}
+
+
